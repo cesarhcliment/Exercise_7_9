@@ -11,10 +11,10 @@ public class Average
 	public static void Main()
 	{
 		string markText;
-		double mark;
+		float mark;
 		int counter = 0;
-		double sum = 0;
-		double average;
+		float sum = 0;
+		float average;
 
 		do 
 		{
@@ -23,7 +23,7 @@ public class Average
 			
 			if (markText != "end")
 			{
-				mark = Convert.ToDouble(markText);
+				mark = Convert.ToSingle(markText);
 				counter++;   
 				sum += mark; 
 			}
